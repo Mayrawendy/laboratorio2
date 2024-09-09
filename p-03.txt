@@ -1,0 +1,49 @@
+3.- TypeScript talvez te suene familiar, pero sin duda es muy relevante en cuanto al desarrollo web. Nombra algunas características 
+importantes de TypeScript y que diferencia se tiene si lo comparamos con JavaScript. (Deberá de crearse un archivo con el nombre P-03.txt)
+
+R.- --------------------------------Características importantes de TypeScript----------------------------------------------------------
+
+a.-Tipado Estático: 
+TypeScript permite definir tipos para variables, parámetros de funciones y valores de retorno. Esto ayuda a detectar errores en tiempo de 
+compilación, antes de que el código se ejecute.
+
+b.-Inferencia de Tipos: 
+Aunque puedes especificar tipos explícitamente, TypeScript también es capaz de inferir tipos en base al valor asignado, lo que facilita la
+ escritura del código sin necesidad de declarar tipos en cada instancia.
+
+c.-Interfaces y Tipos: 
+TypeScript permite definir interfaces y tipos personalizados que ayudan a describir la forma de objetos y otras estructuras de datos, mejorando 
+la documentación y la verificación del código.
+
+d.-Clases y Objetos: 
+TypeScript mejora el soporte para la programación orientada a objetos con características como modificadores de acceso lo que no está disponible
+ en JavaScript de forma nativa.
+
+e.-Decoradores:
+TypeScript soporta decoradores, una característica avanzada que permite modificar clases y métodos de una manera declarativa. Los decoradores 
+ son especialmente útiles en frameworks como Angular.
+
+f.-Compilación: TypeScript se compila a JavaScript, lo que significa que puedes usar TypeScript en proyectos que necesitan ejecutarse en entornos 
+JavaScript (como navegadores y Node.js).
+
+.........................................Diferencias entre TypeScript y JavaScript--------------------------------------------------------------
+
+a.-Tipado:
+JavaScript: Dinámico; los tipos se determinan en tiempo de ejecución.
+TypeScript: Estático; los tipos se determinan en tiempo de compilación.
+
+b.- Errores en Tiempo de Compilación:
+JavaScript: Los errores de tipo se detectan solo en tiempo de ejecución.
+TypeScript: Los errores de tipo y algunos errores comunes se detectan en tiempo de compilación.
+
+c.-Sintaxis:
+JavaScript: Tiene una sintaxis estándar que no incluye características de tipado avanzado.
+TypeScript: Extiende JavaScript con sintaxis adicional para tipos, interfaces y otros conceptos avanzados.
+
+d.-Compatibilidad:
+JavaScript: Ejecución directa en navegadores y entornos JavaScript.
+TypeScript: Necesita ser compilado a JavaScript antes de ejecutarse.
+
+e.- Características Adicionales:
+JavaScript: No incluye características como interfaces, clases con modificadores de acceso, o decoradores de manera nativa.
+TypeScript: Incluye estas características para un desarrollo más robusto y estructurado.

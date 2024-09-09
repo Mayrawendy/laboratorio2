@@ -1,0 +1,32 @@
+1.- En la siguiente línea de código, se pueden observar el uso de comillas invertidas, estas se usan para la creación de template Strings, nombra 
+algunas características importantes y como es que funcionan los anteriormente mencionados “template Strings” y como estos se diferencias de 
+las comillas simples y dobles. (Deberá de crearse un archivo con el nombre P-01.txt).
+
+R.- Características importantes de los template strings (comillas invertidas)
+
+a .- Interpolación de Variables: 
+Los template strings permiten la interpolación de variables dentro de una cadena de texto. Esto se realiza utilizando la sintaxis ${variable}. 
+b .-Multilínea:
+Los template strings permiten crear cadenas de texto en múltiples líneas sin necesidad de utilizar secuencias de escape para los saltos de línea.
+c .-Expresiones en el template: 
+Dentro de las comillas invertidas, puedes utilizar expresiones y operaciones, no solo variables.
+
+Diferencias con las comillas simples y dobles
+
+Comillas simples y dobles:
+
+Las comillas simples (') y dobles (") se utilizan para definir cadenas de texto en una sola línea.
+No permiten interpolación de variables o expresiones directamente.
+Para cadenas multilínea, se deben usar secuencias de escape (\n) para los saltos de línea.
+
+const singleLineString = 'Esta es una cadena de una sola línea.';
+
+Template strings (comillas invertidas):
+
+Se definen usando backticks (`).
+Permiten interpolación de variables y expresiones dentro de la cadena.
+Soportan cadenas multilínea de manera natural.
+
+const name = 'Juan';
+const age = 25;
+const message = `Hola, ${name}. Tienes ${age} años.`;
